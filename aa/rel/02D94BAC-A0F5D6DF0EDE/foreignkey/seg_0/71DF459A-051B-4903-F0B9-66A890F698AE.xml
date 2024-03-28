@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="71DF459A-051B-4903-F0B9-66A890F698AE" containerWithKeyObject="E34AEC96-03B8-C000-1DEC-09C22DD5CC8A" localFKIndex="9C2FC073-8101-3E12-D411-AD5B50FC77EB" name="FKEY">
+<sourceConnName>test123</sourceConnName>
+<sourceObjSchema>C##TEST123</sourceObjSchema>
+<sourceObjName>FKEY</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 02:16:51 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<importedID>6D897C1D-387F-98CC-8081-123E3DD24E93</importedID>
+<referredTableLongName>C##TEST123.POS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2BB8B261-3E41-3EA0-FFAD-FEEC69E1E074</referredTableID>
+<keyObject>14C5C03F-6F6A-B847-CB15-08D43DBAB997</keyObject>
+<referredKeyID>14C5C03F-6F6A-B847-CB15-08D43DBAB997</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PCODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

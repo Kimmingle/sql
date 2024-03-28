@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="POS" directorySegmentName="seg_0" id="2BB8B261-3E41-3EA0-FFAD-FEEC69E1E074">
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:15 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<schemaObject>BB4379BB-4DF7-635A-556B-75FB3795ADD9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D596F95B-7241-9801-AB4B-0FD428E4D129</segment>
+<tableSpace>118D9267-1110-EE77-59EE-3A2F0F04D87E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PCODE" id="263E4A07-D5C1-620C-4F00-F0ADA2A84386">
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:15 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PNAME" id="EF0CC65D-BAAA-63A9-C4F1-26B18219144F">
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:15 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="POS_PK" id="14C5C03F-6F6A-B847-CB15-08D43DBAB997">
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:16 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<schemaObject>BB4379BB-4DF7-635A-556B-75FB3795ADD9</schemaObject>
+<segment>DFF22E45-AA89-204F-D5B2-3974B7E9219C</segment>
+<tableSpace>118D9267-1110-EE77-59EE-3A2F0F04D87E</tableSpace>
+<indexSegment>DFF22E45-AA89-204F-D5B2-3974B7E9219C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

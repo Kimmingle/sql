@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\kma\sql\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+479335008.index
+879415238.index
+1697601548.index
+3213762845.index
+3827007586.index
+3594346345.index
+1568495754.index

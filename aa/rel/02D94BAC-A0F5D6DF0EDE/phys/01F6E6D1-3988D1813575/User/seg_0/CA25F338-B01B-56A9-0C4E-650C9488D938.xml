@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="C##TEST123" directorySegmentName="seg_0" id="CA25F338-B01B-56A9-0C4E-650C9488D938">
+<sourceConnName>test123</sourceConnName>
+<sourceObjName>C##TEST123</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:15 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<schemaObject>BB4379BB-4DF7-635A-556B-75FB3795ADD9</schemaObject>
+<defTableSpace>118D9267-1110-EE77-59EE-3A2F0F04D87E</defTableSpace>
+<privileges>CREATE ANY TABLE, UNLIMITED TABLESPACE</privileges>
+<profile>DEFAULT</profile>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="59E793A2-74D5-74A0-23F6-97AD64BE87E9">
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 02:16:51 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<tableSpace>118D9267-1110-EE77-59EE-3A2F0F04D87E</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

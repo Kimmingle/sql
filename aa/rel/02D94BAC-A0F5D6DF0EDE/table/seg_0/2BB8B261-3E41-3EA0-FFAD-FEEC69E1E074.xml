@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BB8B261-3E41-3EA0-FFAD-FEEC69E1E074" schemaObject="BB4379BB-4DF7-635A-556B-75FB3795ADD9" name="POS">
+<sourceConnName>test123</sourceConnName>
+<sourceObjSchema>C##TEST123</sourceObjSchema>
+<sourceObjName>POS</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:15 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PCODE" id="263E4A07-D5C1-620C-4F00-F0ADA2A84386">
+<sourceConnName>test123</sourceConnName>
+<sourceObjSchema>POS</sourceObjSchema>
+<sourceObjName>PCODE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:15 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PNAME" id="EF0CC65D-BAAA-63A9-C4F1-26B18219144F">
+<sourceConnName>test123</sourceConnName>
+<sourceObjSchema>POS</sourceObjSchema>
+<sourceObjName>PNAME</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:15 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14C5C03F-6F6A-B847-CB15-08D43DBAB997" schemaObject="BB4379BB-4DF7-635A-556B-75FB3795ADD9" name="POS_PK">
+<sourceConnName>test123</sourceConnName>
+<sourceObjSchema>C##TEST123</sourceObjSchema>
+<sourceObjName>SYS_C008318</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:16 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="263E4A07-D5C1-620C-4F00-F0ADA2A84386"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

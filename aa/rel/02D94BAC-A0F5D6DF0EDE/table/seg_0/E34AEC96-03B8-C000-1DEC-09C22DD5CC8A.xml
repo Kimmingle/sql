@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E34AEC96-03B8-C000-1DEC-09C22DD5CC8A" schemaObject="BB4379BB-4DF7-635A-556B-75FB3795ADD9" name="EMP">
+<sourceConnName>test123</sourceConnName>
+<sourceObjSchema>C##TEST123</sourceObjSchema>
+<sourceObjName>EMP</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:15 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="AC91D68C-FA77-E431-9571-A788CAC791B0">
+<sourceConnName>test123</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:15 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="A26538B7-D4BF-2C14-9DAC-C408CD4E190C">
+<sourceConnName>test123</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:15 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PCODE" id="42DFF042-51FF-5C86-2652-C08CF4A8DA05">
+<sourceConnName>test123</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>PCODE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:15 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71DF459A-051B-4903-F0B9-66A890F698AE" referredColumn="263E4A07-D5C1-620C-4F00-F0ADA2A84386"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9990451-F14A-8F65-8B4D-EF5C6615B20D" name="KEY2">
+<sourceConnName>test123</sourceConnName>
+<sourceObjSchema>C##TEST123</sourceObjSchema>
+<sourceObjName>KEY2</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:16 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC91D68C-FA77-E431-9571-A788CAC791B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D3FDC6F-16BF-2B7B-5C7F-834A065EC8E3" schemaObject="BB4379BB-4DF7-635A-556B-75FB3795ADD9" name="KEY2">
+<sourceConnName>test123</sourceConnName>
+<sourceObjSchema>C##TEST123</sourceObjSchema>
+<sourceObjName>KEY2</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 01:53:16 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC91D68C-FA77-E431-9571-A788CAC791B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C2FC073-8101-3E12-D411-AD5B50FC77EB" name="FKEY">
+<createdBy>user1</createdBy>
+<createdTime>2024-03-26 02:16:51 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42DFF042-51FF-5C86-2652-C08CF4A8DA05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
